@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;                 /* enables flexbox */
+  flex-direction: row;           /* items in a row */
+  justify-content: space-evenly; /* evenly space items */
+  flex-wrap: wrap;               /* wrap items to next line if needed */
+  gap: 10px;                     /* optional: adds space between items */
+  padding: 10px;
+}
+
+.item {
+  background-color: lightblue;   /* just for visibility */
+  padding: 20px;
+  border-radius: 5px;
+  min-width: 100px;              /* prevents items from squashing */
+  text-align: center;
+}
